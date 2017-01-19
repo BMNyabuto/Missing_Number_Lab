@@ -8,3 +8,8 @@ def find_missing(list1, list2):
 
             		if ListDiff_2 == []:
                               return 0
+                    else:
+                    	return ListDiff_2
+
+                else:
+                	return ListDiff_1
