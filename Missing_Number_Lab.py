@@ -5,3 +5,6 @@ def find_missing(list1, list2):
             	ListDiff_1 = list(set(list1)-set(list2))
             	if ListDiff_1 == []:
             		ListDiff_2 = list(set(list2)-set(list1))
+
+            		if ListDiff_2 == []:
+                              return 0
